@@ -1,0 +1,157 @@
+
+<html itemscope itemtype="http://schema.org/Article">
+<head>
+
+    <style type="text/css">
+  
+	body{
+	background: #262626; /*IE fallback*/
+	/*background: url('http://img0.minifav.net/images/toolbar/toolbg.png')  repeat-x ;*/
+	height: 44px; 
+	font-family: 'arial';
+	font-size:14px;
+	color: #c3c6c9;
+	overflow: hidden;
+	width:100%;
+	margin:0;
+	padding:0 0 0 10px;
+}
+
+
+.logo{
+	float: left;
+	padding-top:15px;	
+	
+	
+}
+
+.weekly{
+	float: left;
+	padding:15px 0 0 50px;
+}
+
+
+.social{
+	float:left;
+	margin-left:25px;
+	
+	
+	
+}
+
+
+.button-wrapper{
+	
+	float:right;
+	margin-right:45px;
+	position: relative;
+	top: 5px;
+	
+}
+
+.button{
+	background: url('http://img0.minifav.net/images/bestof2012/buttons/all.png') no-repeat 0 0;
+	width: 120px;
+	height: 35px;
+	display: block;
+	outline: none;
+}
+
+.button:hover{
+	background: url('http://img0.minifav.net/images/bestof2012/buttons/all.png') no-repeat 0 -37px;
+	width: 120px;
+	height: 35px;
+}
+
+.button:active{
+	background: url('http://img0.minifav.net/images/bestof2012/buttons/all.png') no-repeat 0 -74px;
+	width: 120px;
+	height: 35px;
+}
+
+.close{
+	
+	float:right;
+	margin-right:25px;
+	padding-top:17px;
+}
+
+a { 
+	outline:0;
+	border:none;
+	text-decoration:none;
+}
+a img{
+	border:none;
+	
+}
+</style>
+</head> 
+<body> 
+	
+	<div style="height:44px;">
+		<div class="logo" >
+			<a href="http://www.allmyfaves.com" target="_blank" >
+				<img src="http://img0.minifav.net/images/toolbar/amflogo.png" width="150px" height="14px">
+			</a>
+		</div>
+		<div class="weekly">
+			<a href="http://bestof2012.allmyfaves.com" target="_blank"  style="text-decoration:none; color:#859CE6; "><b>Best Site of 2012 Nominee</b></a>
+			<!--
+			<a href="" target="_blank" style="color:#ffffff"></a> 
+			-->
+		</div>
+		<div class="line">
+			<img src="http://img0.minifav.net/images/toolbar/line.png" style="padding:5px 0px 0px 20px; float:left">
+		</div>
+		<div class="social">
+			<div style="text-decoration:none; color:#ffffff; float:left; margin-right: 20px; margin-top: 15px; position: relative;">Click <b>Like</b> to vote for </div>
+			<!--facebook-->
+			<div style=" margin-top:12px;  position: relative; float:left;">
+				<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.fancyforweek.com&amp;send=false&amp;layout=button_count&amp;width=70&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none;  width:70px; height:21px;" allowTransparency="true"></iframe>
+			</div>
+			<!--blog comments-->
+			<!--
+			<a href="" target="_blank" style="padding-left:25px" >
+				<img src="http://img1.minifav.net/images/toolbar/comment1.png" width="24px" height="28px" style="vertical-align:middle;" title="Comment"></img>
+			</a>
+			<!--twitter-->
+			<!--
+				<a href="javascript:(function(){window.open('https://twitter.com/share?url=/&amp;via=allmyfaves&amp;text=Just discovered ','_blank','width=460, height=390')}())" >
+					<img src="http://img3.minifav.net/images/toolbar/twitter.png" width="32px" height="28px" style="vertical-align:middle;padding-left:7px;">
+				</a>
+			-->
+			<!--			
+			<img src="http://img0.minifav.net/images/toolbar/eye.png" width="24px" height="28px" style="vertical-align:middle;padding-left:7px;" title="Views"></img>
+						-->
+		</div>
+		<div class="close">
+			<a href="http://" target="_top" >
+				<img src="http://img0.minifav.net/images/toolbar/close.png" width="15px" height="13px">
+			</a>
+		</div>
+		<div class="button-wrapper">
+			<a class="button" href="http://bestof2012.allmyfaves.com" target="_blank"></a>
+		</div>
+
+		<!-- <div class="button">
+			<a href="http://bestof2012.allmyfaves.com" target="_blank">
+				<img src="http://img0.minifav.net.s3.amazonaws.com/images/toolbar/vote.png" ><!--width="101px" height="35px"->
+			</a> -->
+
+
+			<!--random button-->
+			<!--
+			<a href="" target="_top" >
+				<img src="http://img1.minifav.net/images/toolbar/randbtn.png" width="101px" height="35px" style="padding-left:4px;">
+			</a>
+			-->
+			
+		</div>
+		
+		
+			
+		
+	</div>
+</body> 
+</html>
